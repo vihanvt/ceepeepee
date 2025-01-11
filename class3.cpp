@@ -14,7 +14,6 @@ public:
     void printcoord(){
         cout<<"The x coordinate is"<<x;
         cout<<"THe y coordinate is"<<y;
-
     }
     void distance(){
         cout<<"Enter the x coordinate of point to find the difference from"<<endl;
@@ -26,9 +25,8 @@ public:
     }
 };
 int main(){
-    Point pint;
+    Point pint;//defining the object from the class
     pint.setcoord();
     pint.printcoord();
     pint.distance();
-    
 }
