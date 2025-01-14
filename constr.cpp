@@ -14,6 +14,7 @@ public:
         x=X;    
         y=Y;
     }
+    //also this is an example of constructor overloading as we have more than 1 constructor in the same class
     void printer() {
         cout << "Value of x is " << x << endl;
         cout << "The value of y is " << y << endl;
@@ -24,3 +25,5 @@ int main() {
     entity.printer();
     return 0;
 }
+
+//example of constructors in cpp is finished.
