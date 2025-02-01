@@ -4,7 +4,7 @@ using namespace std;
 
 class Mul {
 public:
-    void input(int &r1, int &c1, int &r2, int &c2) {
+    void input(int &r1, int &c1, int &r2, int &c2) {//use call by ref to update values
         cout << "Enter the real part of number-1: ";
         cin >> r1;
         cout << "Enter the complex part of number-1: ";
