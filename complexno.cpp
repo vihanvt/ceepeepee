@@ -22,7 +22,7 @@ public:
 
     void displayer(int real, int comp) {
         if comp>0{
-            cout << "Final result is " << real << " + i" << comp << endl;
+            cout << "Fiaaaaaaaaaanal result is " << real << " + i" << comp << endl;
         }
         else{
             cout<<"Final result is"<<real<<" - i"<<comp<<endl;
