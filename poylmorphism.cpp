@@ -1,4 +1,5 @@
 //precaution- this is made to show the difference between overloading and overriding
+//method overriding
 #include <bits/stdc++.h>
 using namespace std;
 //this is an example of overloading-compile time polymorphism
