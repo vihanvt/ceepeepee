@@ -7,7 +7,7 @@ public:
     Tester(){
         num=10;
     }
-    //operator overloadig for "+" operator
+    //operator overloading for "+" operator
     void operator +(){
         num=num-1;
     }
